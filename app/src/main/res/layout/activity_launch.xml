@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.andigame.sharan.nano.nanolaunchpad.LaunchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/abc_text_size_caption_material"
+        android:textAlignment="center"
+        android:text="My Nanodegree Apps!"
+        android:textSize="28dp"/>
+
+    <Button
+        android:id="@+id/bsportify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="64dip"
+        android:layout_marginRight="64dip"
+        android:layout_marginBottom="@dimen/abc_text_size_caption_material"
+        android:layout_marginTop="@dimen/abc_text_size_caption_material"
+        android:text="SPORTIFY STREAMER"
+        android:textSize="16dp"
+        android:background="#F08C35"
+        android:onClick="launchSportifySummer"/>
+
+    <Button
+        android:id="@+id/bscores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="64dip"
+        android:layout_marginRight="64dip"
+        android:layout_marginBottom="@dimen/abc_text_size_caption_material"
+        android:layout_marginTop="@dimen/abc_text_size_caption_material"
+        android:text="SCORES APP"
+        android:textSize="16dp"
+        android:background="#F08C35"
+        android:onClick="launchScoresApp"/>
+
+    <Button
+        android:id="@+id/blibrary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="64dip"
+        android:layout_marginRight="64dip"
+        android:layout_marginBottom="@dimen/abc_text_size_caption_material"
+        android:layout_marginTop="@dimen/abc_text_size_caption_material"
+        android:text="LIBRARY APP"
+        android:textSize="16dp"
+        android:background="#F08C35"
+        android:onClick="launchLibraryApp"/>
+
+    <Button
+        android:id="@+id/bbuild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="64dip"
+        android:layout_marginRight="64dip"
+        android:layout_marginBottom="@dimen/abc_text_size_caption_material"
+        android:layout_marginTop="@dimen/abc_text_size_caption_material"
+        android:text="BUILD IT BIGGER"
+        android:textSize="16dp"
+        android:background="#F08C35"
+        android:onClick="launchBuildItBigger"/>
+
+    <Button
+        android:id="@+id/bxyz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="64dip"
+        android:layout_marginRight="64dip"
+        android:layout_marginBottom="@dimen/abc_text_size_caption_material"
+        android:layout_marginTop="@dimen/abc_text_size_caption_material"
+        android:text="XYZ READER"
+        android:textSize="16dp"
+        android:background="#F08C35"
+        android:onClick="launchXYZReader"/>
+
+    <Button
+        android:id="@+id/bcapstone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="64dip"
+        android:layout_marginRight="64dip"
+        android:layout_marginBottom="@dimen/abc_text_size_caption_material"
+        android:layout_marginTop="@dimen/abc_text_size_caption_material"
+        android:text="CAPSTONE: MY OWN APP"
+        android:textSize="16dp"
+        android:background="#F50057"
+        android:onClick="launchCapStone"/>
+
+    </LinearLayout>
+</ScrollView>
